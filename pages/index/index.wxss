@@ -1,0 +1,54 @@
+.outer-view{
+  width: 100%;
+  background-color: #fed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.inner-view{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 10rpx 0;
+  text-align: center;
+}
+
+.inner-view image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.inner-fnt{
+  font-size: 28rpx;
+}
+
+.scroll-view{
+  width: 140rpx;
+  display: flex;
+}
+
+
+.margin20{
+  margin: 10rpx 26rpx;
+}
+
+.for-tu image{
+  width: 100%;
+}
+
+.backgroun-scroll{
+  background-color: #fed;
+}
+
+
+.nav{
+  display: flex;
+  height: 50rpx;
+  white-space: nowrap;
+}
+
+.nav navigator{
+  margin: 0 10rpx;
+}

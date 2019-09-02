@@ -1,0 +1,127 @@
+<view class='container'>
+  <!-- 滚动菜单 -->
+  <view class='search'>
+    <scroll-view class='backgroun-scroll' scroll-x>
+      <view class='nav'>
+      <navigator url=''>国际新闻</navigator>
+      <navigator url=''>国内新闻</navigator>
+      <navigator url=''>社会新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>IT新闻</navigator>
+      <navigator url=''>八卦新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>IT新闻</navigator>
+      <navigator url=''>八卦新闻</navigator>
+    </view>
+    </scroll-view>
+  </view>
+
+  <!-- 轮播图 -->
+  <view class='ads'>
+    <swiper class='for-tu' autoplay>
+      <swiper-item >
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563327679&di=7c2e1250f9d8e2695c722df17f1605c2&imgtype=jpg&er=1&src=http%3A%2F%2Fnewsimg.5054399.com%2Fuploads%2F091028%2F1256702808_4ae7c3586ba69.jpeg'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562732973486&di=7ffc3dc9a96a6fab53d3691f66e132b2&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F17%2F90%2F23%2F55a7b48d86771_1024.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562732983580&di=2cd9c09b7bfb6e1a1fcb61f99da6ad8d&imgtype=0&src=http%3A%2F%2Fimg3.redocn.com%2Ftupian%2F20140815%2Fhuoyanqichecemiantaobaodianzhaobeijing_2736789.jpg'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 导航菜单 -->
+  <view class='outer-view'>
+    <view class='inner-view'>
+    <navigator url=''>
+      <image src='/icon/t1.png'></image>
+      <view class='inner-fnt'>秒杀</view>
+    </navigator>
+    </view>
+       <view class='inner-view'>
+    <navigator url=''>
+      <image src='/icon/t2.png'></image>
+      <view class='inner-fnt'>对战</view>
+    </navigator>
+    </view>
+    <view class='inner-view'>
+    <navigator url=''>
+      <image src='/icon/t3.png'></image>
+      <view class='inner-fnt'>收藏</view>
+    </navigator>
+    </view>   
+    <view class='inner-view'>
+    <navigator url=''>
+      <image src='/icon/t4.png'></image>
+      <view class='inner-fnt'>日志</view>
+    </navigator>
+    </view>
+    <view class='inner-view'>
+    <navigator url=''>
+      <image src='/icon/t5.png'></image>
+      <view class='inner-fnt'>设置</view>
+    </navigator>
+    </view>
+  </view>
+
+  <!-- 动态导航 -->
+  <view>
+    <scroll-view scroll-x>
+      <view class='scroll-view'>
+        <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u1.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u2.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+        
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u3.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u4.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u5.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u6.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+
+         <view class='inner-view margin20'>
+          <navigator url=''>
+            <image src='/icon/u7.png'></image>
+            <view class='inner-fnt'>秒杀</view>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<!-- 搜索栏 -->
+<view>
+
+</view>
