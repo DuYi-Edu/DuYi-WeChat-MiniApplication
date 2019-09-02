@@ -1,0 +1,5 @@
+<text>hello</text><text class='fnt-red'> this is </text>
+<view class='area'>world</view><view> welcome</view>
+<button bindtap='show'>link</button>
+<!-- view -> div -->
+<!-- text -> font+span -->
