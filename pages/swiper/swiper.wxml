@@ -1,0 +1,72 @@
+
+<!-- scroll-view -->
+<view>
+  <scroll-view class='background-scroll' scroll-x>
+    <view class='nav'>
+      <navigator url=''>国际新闻</navigator>
+      <navigator url=''>国内新闻</navigator>
+      <navigator url=''>社会新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>IT新闻</navigator>
+      <navigator url=''>八卦新闻</navigator>
+      <navigator url=''>娱乐新闻</navigator>
+      <navigator url=''>IT新闻</navigator>
+      <navigator url=''>八卦新闻</navigator>
+    </view>
+  </scroll-view>
+</view>
+
+<!-- swiper运用 -->
+<view>
+  <swiper current='1' bindchange='changeCurrent' autoplay  duration='500' indicator-dots>
+    <swiper-item>
+      <navigator url='/pages/about/about'><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562577290130&di=a556dbe73b0ef1ddebd27d61b47b6a52&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201111%2F27%2F20111127174801_TaG2r.jpg'></image></navigator>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562577318862&di=5cc78db3d19d4a887cf74056b22b39e7&imgtype=0&src=http%3A%2F%2Fimg.juimg.com%2Ftuku%2Fyulantu%2F140901%2F330756-140Z11IZ240.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 新闻列表 -->
+<swiper>
+  <swiper-item>
+    <view class='view-con'>
+      <image src='/images/ad3.jpg' class='img'></image>
+      <view class='news-title'>
+        <view>微信课程滑块容器学习00</view>
+        <text class='fnt-content'>微信课程滑块容器学习微信课程滑块容器学习</text>
+      </view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='view-con'>
+      <image src='/images/ad3.jpg' class='img'></image>
+      <view class='news-title'>
+        <view>微信课程滑块容器学习11</view>
+        <text class='fnt-content'>微信课程滑块容器学习微信课程滑块容器学习</text>
+      </view>
+    </view>
+  </swiper-item>
+
+</swiper>
+
+<scroll-view  scroll-x>
+<view class='nav' style='height:400rpx;'>
+      <view class='view-con'>
+        <image src='/images/ad3.jpg' class='img'></image>
+        <view class='news-title'>
+          <view>微信课程滑块容器学习</view>
+          <text class='fnt-content'>微信课程滑块容器学习微信课程滑块容器学习</text>
+        </view>
+      </view>
+
+      <view class='view-con'>
+        <image src='/images/ad3.jpg' class='img'></image>
+        <view class='news-title'>
+          <view>微信课程滑块容器学习</view>
+          <text class='fnt-content'>微信课程滑块容器学习微信课程滑块容器学习</text>
+        </view>
+      </view>
+</view>
+  </scroll-view>
