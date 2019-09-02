@@ -1,0 +1,4 @@
+/* pages/about/about.wxss */
+.fnt-red{
+  color: red
+}
