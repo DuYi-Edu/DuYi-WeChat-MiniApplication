@@ -1,0 +1,38 @@
+
+
+<block wx:if="{{false}}">
+  <view wx:if="{{condition}}">
+  this is demo page
+  </view>
+  <view wx:if="{{score >= 80}}">
+  优秀
+  </view>
+  <view wx:elif="{{score >= 60}}">
+  及格
+  </view>
+  <view wx:else>
+  不及格
+  </view>
+</block>
+
+<view wx:if="{{condition}}" hidden="{{true}}">
+  this is demo page
+</view>
+
+<view wx:for="{{studentScores}}" wx:for-index="scoredID" wx:for-item="stuendScore">
+  {{scoredID}}:{{stuendScore}}
+</view>
+
+<block wx:for="{{studentArr}}">
+  <view>11姓名:{{item.name}}</view>
+  <view>11学号：{{index}}</view>
+</block>
+
+<view wx:for="{{studentArr}}">
+<view>22姓名:{{item.name}}</view>
+  <view>22学号：{{index}}</view>
+</view>
+
+<view wx:for="{{subjects}}" wx:key="id">
+ 
+</view>

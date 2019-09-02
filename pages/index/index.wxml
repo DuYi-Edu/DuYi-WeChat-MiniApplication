@@ -1,0 +1,55 @@
+<view class='container'>
+  <!-- 滚动菜单 -->
+  <view class='search'>
+    <scroll-view class='backgroun-scroll' scroll-x>
+      <view class='nav'>
+      <block wx:for="{{navigatorArr}}">
+        <navigator url=''>{{item}}</navigator>
+      </block>
+    </view>
+    </scroll-view>
+  </view>
+
+  <!-- 轮播图 -->
+  <view class='ads'>
+    <swiper class='for-tu' autoplay>
+      <swiper-item >
+      <image src='{{img1}}'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='{{img2}}'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='{{img3}}'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 导航菜单 -->
+  <view class='outer-view'>
+    <view class='inner-view' wx:for='{{navMenu}}'>
+      <navigator url='{{item.url}}'>
+        <image src='/icon/{{item.img}}'></image>
+        <view class='inner-fnt'>{{item.title}}</view>
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 动态导航 -->
+  <view>
+    <scroll-view scroll-x>
+      <view class='scroll-view'>
+        <view class='inner-view margin20' wx:for='{{navigatorScroll}}'>
+          <navigator url='{{item.url}}'>
+          <image src='/icon/{{item.img}}'></image>
+          <view class='inner-fnt'>{{item.title}}</view>
+      </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<!-- 搜索栏 -->
+<view>
+
+</view>
