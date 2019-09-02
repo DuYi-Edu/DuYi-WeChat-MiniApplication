@@ -1,0 +1,11 @@
+<view>
+  <view class='lists'>
+    <image src="/images/y1.png"></image>
+    <view class='lists-word'>
+      <view class='title'>标题文字</view>
+      <text class='guanzhu'>关注</text><text class='try-pay'>试玩</text>
+    </view>
+    <button size='mini' class='lists-btn'>下载</button>
+  </view>
+
+</view>
