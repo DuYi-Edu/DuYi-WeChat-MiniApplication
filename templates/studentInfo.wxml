@@ -1,0 +1,9 @@
+<template name='studentInfo'>
+  <view>
+    欢迎姓名：{{studentName}}
+  </view> 
+  <view>
+    年龄：{{age}}
+  </view>
+</template>
+

@@ -1,0 +1,9 @@
+<!-- 引用模板 -->
+<import src='/templates/studentInfo.wxml'/>
+<import src='/templates/text_student.wxml'/>
+<!-- 模板调用 -->
+<view wx:for="{{studentInfo}}">
+<template is="{{flagTmp % 2==0 ? 'studentInfo':'text_student'}}" data='{{...item}}'/>
+</view>
+<!-- include包含 不能包含template元素 -->
+<include src='/templates/footer.wxml'/>

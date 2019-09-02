@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/templateDemo/templateDemo",
+    "pages/news/news",
+    "pages/video/video",
+    "pages/nav/nav",
+    "pages/formFormat/index",
+    "pages/form/picker-view",
+    "pages/form/picker",
+    "pages/form/form",
+    "pages/basicContent/icon",
+    "pages/moveable/moveable",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/case/case",
+    "pages/case/photo"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的微信",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ddd"
+  },
+  "tabBar": {
+    "selectedColor": "#0f0",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_1.png",
+        "selectedIconPath": "images/icon_11.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/icon_2.png",
+        "selectedIconPath": "images/icon_22.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
