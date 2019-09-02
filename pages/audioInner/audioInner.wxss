@@ -1,0 +1,26 @@
+.audio-stop,.audio-play{
+  width: 250rpx;
+  height: 250rpx;
+  left: 250rpx;
+  top:12rpx;
+  position: relative;
+}
+
+.audio-stop-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.audio-stop-play{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 75rpx;
+  top: 75rpx;
+}
+
+.slider-cls{
+  width: 500rpx;
+  margin: 125rpx;
+}

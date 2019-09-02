@@ -1,0 +1,17 @@
+<view class='container'>
+  <icon type='success' size='23'></icon>
+  <icon type='success_no_circle' size='28'></icon>
+  <icon type='warn' size='28'></icon>
+
+  <text>this is china</text>
+  <text space='emsp'>this is china</text>
+  <button>注册</button>
+</view>
+<view>
+  <input placeholder='请输入姓名' value='tom'></input>
+  <input placeholder='请输入密码' password></input>
+  <button bindtap='reg'>注册</button>
+  <button type='primary'>完成</button>
+  <button type='warn'>取消</button>
+  <button type='warn' size='mini'>取消</button>
+</view>
