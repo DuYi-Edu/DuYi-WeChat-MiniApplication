@@ -1,0 +1,28 @@
+<view>
+  <view>
+    <scroll-view scroll-x>
+      <view class='nav'>
+        <block wx:for='{{navigatorArr}}'>
+          <navigator url='' class='{{classArr[index]}}' data-index='{{index}}' bindtap='campusActivity'>{{item}}</navigator>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<view>
+  <swiper style='height:{{swiperRPXHeight}}rpx' current='{{currentTab}}'>
+    <swiper-item class="bg-red">
+      <view>111</view>
+      <view>22</view>
+      <view>33</view>
+      <view>44</view>
+      <view>55</view>
+      <view>33</view>
+      <view>44</view>
+      <view>55</view>
+    </swiper-item>
+    <swiper-item class="bg-green">22</swiper-item>
+    <swiper-item class="bg-yellow">33</swiper-item>
+  </swiper>
+</view>
