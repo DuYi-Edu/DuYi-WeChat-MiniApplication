@@ -1,0 +1,15 @@
+<!--pages/bind/bind.wxml-->
+<view>name: {{studentName}}</view>
+<view>age:{{studentAge}}</view>
+<view class="{{flag ? 'color-red' : 'color-green'}}">
+  scroe:90
+</view>
+<view id="item{{id}}">
+  item-view
+</view>
+<view >
+{{'学号'}}{{a+b}}
+</view>
+<view>
+  {{studentScroes[0]}} . {{studentClassScroes[0].className}}
+</view>

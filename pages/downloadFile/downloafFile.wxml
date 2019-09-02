@@ -1,0 +1,5 @@
+<progress show-info percent='{{per}}'></progress>
+<button bindtap='downloadOpt'>下载</button>
+<view class='downloadImg'>
+<image src='{{imgPath}}'></image>
+</view>

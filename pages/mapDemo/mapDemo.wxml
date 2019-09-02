@@ -1,0 +1,19 @@
+<view class='page-body'>
+  <view class='page-section'>
+    <map 
+      id='myMap'
+      style='width:100%;height:300px;'
+      latitude='{{latitude}}'
+      longitude='{{longitude}}'
+      markers='{{markers}}'
+      covers='{{covers}}
+      show-location
+    ></map>
+  </view>
+  <view class='btn-area'>
+    <button type='primary' bindtap='getCenterLocation'>获取位置</button>
+    <button type='primary' bindtap='moveToLocation'>移动位置</button>
+    <button type='primary' bindtap='translateMarker'>移动标注</button>
+    <button type='primary' bindtap='includePoints'>缩放视野展示所有经纬度</button>
+  </view>
+</view>
