@@ -1,0 +1,35 @@
+<view>
+<view>
+  <icon type='success'></icon>
+  电子商城注册
+</view>
+<view class='row'>
+  <view class='info'>
+    <input bindinput='inputPhone' placeholder='请输入你的手机号' class='info-input1'></input>
+    <button class='button'>获取验证码</button>
+  </view>
+</view>
+<!-- 1px = 2rpx -->
+<view class='row'>
+  <input class='info-input' placeholder='请输入你的验证码'></input>
+</view>
+
+<view class='row'>
+  <view class='info'>
+    <input password class='info-input' placeholder='请输入你的密码'></input>
+  </view>
+</view>
+
+<view class='row'>
+  <view class='info'>
+    <input password class='info-input' placeholder='请重新输入你的密码'></input>
+  </view>
+</view>
+
+<view class='row'>
+  <view class='info'>
+    <button class='submit' type='primary' bindtap='showPhone'>提交</button>
+  </view>
+</view>
+
+</view>

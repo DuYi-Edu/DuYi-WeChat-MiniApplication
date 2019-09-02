@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/navigator/navigator",
+    "pages/form/form",
+    "pages/progress/progress",
+    "pages/rich-text/rich-text",
+    "pages/cover/cover",
+    "pages/movablDemo/movableDemo",
+    "pages/movable/movable",
+    "pages/video/video",
+    "pages/audioInner/audioInner",
+    "pages/audio/audio",
+    "pages/eventDemo/eventDemo",
+    "pages/event/event",
+    "pages/list/list",
+    "pages/bind/bind",
+    "pages/swiper/swiper",
+    "pages/flex/flex",
+    "pages/reg/reg",
+    "pages/icon/icon",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/us"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "我的微信",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#ddd"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/form/form",
+        "text": "首页",
+        "iconPath": "/images/icon_1.png",
+        "selectedIconPath": "/images/icon_11.png"
+      },
+      {
+        "pagePath": "pages/navigator/navigator",
+        "text": "日志",
+        "iconPath": "/images/icon_2.png",
+        "selectedIconPath": "/images/icon_22.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我们",
+        "iconPath": "/images/icon_1.png",
+        "selectedIconPath": "/images/icon_11.png"
+      }
+    ]
+  }
+}
