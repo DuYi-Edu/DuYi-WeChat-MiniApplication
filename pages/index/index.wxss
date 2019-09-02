@@ -1,0 +1,101 @@
+.page{
+  width: 100%;
+  height: 100%;
+}
+
+.outer-view{
+  width: 100%;
+  background-color: #fed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 10rpx 0;
+}
+
+.inner-view{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 10rpx 0;
+  text-align: center;
+}
+
+.inner-view image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.inner-fnt{
+  font-size: 28rpx;
+}
+
+.scroll-view{
+  width: 140rpx;
+  display: flex;
+}
+
+.margin20{
+  margin: 10rpx 26rpx;
+}
+
+.for-tu image{
+  width: 100%;
+}
+
+.nav{
+  display: flex;
+  height: 50rpx;
+  white-space: nowrap;
+}
+
+.nav navigator{
+  margin: 0 14rpx;
+  height: 20rpx;
+  font-weight: bold;
+}
+
+.list{
+  display: flex;
+}
+
+.list image{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 20rpx;
+}
+
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 10rpx 0;
+}
+
+.follow{
+  color:orange;
+  background-color: yellow;
+  border-radius: 10rpx;
+  padding:0 20rpx;
+  margin: 10rpx 5rpx 0 0;
+}
+
+.try-play{
+  color:green;
+  background-color: greenyellow;
+  border-radius: 10rpx;
+  padding:0 20rpx;
+  margin: 10rpx 0 0 5rpx;
+}
+
+.list-btn{
+  width: 180rpx;
+  height: 60rpx;
+  background-color: orange;
+  color: white;
+  margin: 60rpx 0 0 120rpx;
+}
+
+.ad{
+  width: 100%;
+  height: 200rpx;
+}

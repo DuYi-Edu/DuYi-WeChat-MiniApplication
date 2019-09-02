@@ -1,0 +1,74 @@
+<!-- 引入操作 -->
+<import src='/templates/listTmp.wxml'/>
+
+<view class='container'>
+  <!-- 滚动菜单 -->
+  <view class='search'>
+    <scroll-view class='backgroun-scroll' scroll-x>
+      <view class='nav'>
+      <block wx:for="{{navigatorArr}}">
+        <navigator url=''>{{item}}</navigator>
+      </block>
+    </view>
+    </scroll-view>
+  </view>
+
+  <!-- 轮播图 -->
+  <view class='ads'>
+    <swiper class='for-tu' autoplay>
+      <swiper-item >
+      <image src='{{img1}}'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='{{img2}}'></image>
+      </swiper-item>
+      <swiper-item>
+      <image src='{{img3}}'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 导航菜单 -->
+  <view class='outer-view'>
+    <view class='inner-view' wx:for='{{navMenu}}'>
+      <navigator url='{{item.url}}'>
+        <image src='/icon/{{item.img}}'></image>
+        <view class='inner-fnt'>{{item.title}}</view>
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 动态导航 -->
+  <view>
+    <scroll-view scroll-x>
+      <view class='scroll-view'>
+        <view class='inner-view margin20' wx:for='{{navigatorScroll}}'>
+          <navigator url='{{item.url}}'>
+          <image src='/icon/{{item.img}}'></image>
+          <view class='inner-fnt'>{{item.title}}</view>
+      </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<!-- 搜索栏 -->
+<view>
+
+</view>
+
+<!-- 游戏列表1 -->
+<view>
+ <template is='listTmp' data='{{gameLists}}'/>
+</view>
+
+<!-- 广告 -->
+<image class='ad' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563348214&di=ec3b3e4bfca39019fc834631c5e0f626&imgtype=jpg&er=1&src=http%3A%2F%2Fimg3.redocn.com%2Ftupian%2F20140715%2Fheisepaochechuangyihaibaosheji_2735041.jpg'></image>
+
+<!-- 游戏列表2 -->
+<view>
+ <template is='listTmp' data='{{gameLists}}'/>
+</view>
+
+<!-- 包含底部 -->
+<include src='/templates/footer.wxml'/>

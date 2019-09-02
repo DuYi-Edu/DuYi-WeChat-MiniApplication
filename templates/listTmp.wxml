@@ -1,0 +1,11 @@
+<template name='listTmp'>
+ <view class='list' wx:for='{{gameLists}}'>
+    <image src='/icon/{{item.img}}'></image>
+    <view class='list-font'>
+      <view class='title'>{{item.title}}</view>
+      <text class='follow'>关注</text>
+      <text class='try-play'>试玩</text>
+    </view>
+    <button size='mini' class='list-btn'>下载</button>
+  </view>
+</template>
