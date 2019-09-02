@@ -1,0 +1,41 @@
+.lists{
+  display: flex;
+}
+
+.lists image{
+  width: 140rpx;
+  height: 140rpx;
+  margin: 20rpx;
+}
+
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin: 10rpx 0;
+}
+
+.guanzhu{
+  color: orange;
+  background-color: yellow;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-weight: bold;
+  margin:10rpx 5rpx 0 0;
+}
+
+.try-pay{
+  color: green;
+  background-color:greenyellow;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-weight: bold;
+  margin:10rpx 0 0 5rpx;
+}
+
+.lists-btn{
+  width: 180rpx;
+  height: 60rpx;
+  background-color: orange;
+  color: white;
+  margin: 60rpx 0 0 120rpx;
+}
