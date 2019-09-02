@@ -1,0 +1,10 @@
+<view wx:for='{{items}}' wx:key='{{index}}'>
+  <movable-area class='movable-area'>
+     <movable-view class='movable-view' direction='horizontal'>
+        <view class='touch-item {{item.isTouchMove?"touch-move-active":""}}' data-index='{{index}}' bindtouchstart='touchstart' bindtouchmove='touchmove'>
+          <view class='content' bindtap='goDetail'>{{item.content}}</view>
+          <view class='del' catchtap='del' data-index='{{index}}'>删除</view>
+        </view>
+     </movable-view>
+  </movable-area>
+</view>

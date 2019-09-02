@@ -1,0 +1,10 @@
+<view>
+<view>rich-text富文本控件 nodes=String</view>
+<rich-text nodes='{{richString}}'></rich-text>
+</view>
+
+<view>数据绑定的数组形式</view>
+<view>
+  nodes=array
+</view>
+<rich-text nodes='{{nodesArr}}'></rich-text>

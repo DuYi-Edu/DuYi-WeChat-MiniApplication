@@ -1,0 +1,53 @@
+<view class='container'>
+  <view class='page'>
+    <form bindsubmit='regFormSubmit' bindreset='regFormReset'>
+      <view class='area'>
+        <label class='model'>
+          <text>name:</text>
+          <input class='input' bindblur='inputValue'></input>
+        </label>
+        <label class='model'>
+          <text>password:</text>
+          <input class='input' password bindblur='passwordValue'></input>
+        </label>
+        <label class='model'>
+          <text>password:</text>
+          <radio-group class='control-center' bindchange='genderRadio'>
+            <radio value='1' checked>male</radio>
+            <radio value='0'>female</radio>
+          </radio-group>
+        </label>
+        <label class='model'>
+          <text>hobby:</text>
+          <checkbox-group class='control-center' bindchange='hobbyCheckbox'>
+            <checkbox value='tour'>tour</checkbox>
+            <checkbox value='book' checked>book</checkbox>
+            <checkbox value='game'>game</checkbox>
+          </checkbox-group>
+        </label>
+        <label class='model'>
+          <text>birthday</text>
+          <picker mode='date' bindchange='birthdayValue'>
+            <view>[please choose birthday]</view>
+          </picker>
+        </label>
+        <label class='model'>
+          <text>study years:</text>
+          <slider step='1' show-value bindchange='sliderValue'></slider>
+        </label>
+        <label class='model'>
+          <view>
+            isMember:
+            <switch bindchange='isMemberValue'></switch>
+          </view>
+        </label>
+        <label class='model'>
+          <text>agreemeng:</text>
+          <textarea class='textarea control-center'>this is psersonReg.please read it first.</textarea>
+        </label>
+        <button size='default' form-type='submit'>submit</button>
+        <button size='default' form-type='reset'>reset</button>
+      </view>
+    </form>
+  </view>
+</view>
