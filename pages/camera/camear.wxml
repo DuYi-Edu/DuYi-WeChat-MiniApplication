@@ -1,0 +1,9 @@
+<view>
+  <camera mode='normal' device-position='back' flash='auto' frame-size='large' style='width:100%;height:600rpx;'></camera>
+<button type='primary' bindtap='takePhoto'>拍照</button>
+
+  <!-- <camera mode='scanCode' device-position='back' flash='auto' frame-size='large' style='width:100%;height:600rpx;'></camera> -->
+
+<!-- wxfile://xxxxxx -->
+{{src}}
+</view>
