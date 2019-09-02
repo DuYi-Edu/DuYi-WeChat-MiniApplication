@@ -1,0 +1,19 @@
+/* pages/bind/bind.wxss */
+.color-red{
+  color: red;
+}
+
+.color-green{
+  color:green;
+}
+
+#item1{
+  color: yellow;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+#item2{
+  color:orange;
+  font-size:30rpx;
+}

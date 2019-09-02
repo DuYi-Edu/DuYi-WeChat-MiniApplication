@@ -1,0 +1,92 @@
+<form bindsubmit='formSubmit' bindreset='formReset'>
+<view>button</view>
+<button size='mini'>按钮</button>
+<button size='mini' type='primary'>按钮</button>
+<button size='mini' type='warn'>按钮</button>
+<button size='mini' type='warn' plain>按钮</button>
+<button size='mini' type='warn' disabled='{{false}}'>按钮</button>
+<button size='mini' type='warn' disabled='{{true}}' loading='{{true}}'>按钮</button>
+<button size='mini' lang='en' bindtap='phonenumber'>按钮</button>
+<view>checkbox</view>
+<checkbox-group bindchange='checkbind'>
+  <checkbox value='101'>101</checkbox>
+  <checkbox value='102' checked>102</checkbox>
+</checkbox-group>
+<checkbox-group bindchange='checkedChange'>
+  <label wx:for='{{items}}'>
+    <checkbox value='{{item.name}}' checked='{{item.checked}}'>{{item.value}}</checkbox>
+  </label>
+</checkbox-group>
+<view>editor</view>
+<editor id='editor' placeholder='this is editor' showImgToolbar showImgSize showImgResize></editor>
+<view>input</view>
+<!-- confirm-type send发送 search搜索 next下一个 go前往 done完成 -->
+<input value='文本' type='text' maxlength='5' focus='{{true}}'></input>
+<input value='数字' type='number'></input>
+<input value='身份证' type='idcard'></input>
+<input value='带小数' type='digit'></input>
+<input password placeholder='密码' placeholder-style='color:red'bindinput='inputBind' bindconfirm='confirmBtn'></input>
+
+<view>
+  <radio-group bindchange='radioChange'>
+  
+    <view wx:for='{{radioItems}}'>
+  <label for='{{item.name}}'>点赞</label><radio id='{{item.name}}' value='{{item.name}}' checked='{{item.checked}}'>{{item.value}}</radio>
+    </view>
+  </radio-group>
+</view>
+
+<view>picker滚动选择器</view>
+<picker bindchange='bindPickerChange' mode='Selector' value='{{index}}' range='{{country}}'>
+  <view>
+    当前选择{{country[index]}}
+  </view>
+</picker>
+
+<view>多列选择器</view>
+<picker mode='multiSelector' bindchange='bindMultiPickerChange' bindcolumnchange='bindMultiPickerColumnChange' value='{{multiIndex}}' range='{{multiArray}}'>
+<view>
+当前选择了：{{multiArray[0][multiIndex[0]]}}
+</view>
+</picker>
+<view>时间选择</view>
+<picker mode='time' start='09:00' end='21:00' bindchange='bindTimeChange'>
+<view>
+当前选择：{{time}}
+</view>
+</picker>
+<view>日期选择</view>
+<picker mode='date' value='{{date}}' start='2015-09-01' end='2018-1-1'>
+<view>
+  当前选择
+</view>
+</picker>
+
+<picker mode='region'>
+<view>
+  当前选择
+</view>
+</picker>
+
+
+<view>slide滑动选择器</view>
+<view>
+<text>设置step</text>
+<slider step='5' bindchange='sliderChange' min='50' max='200' show-value></slider>
+</view>
+
+<view>switch</view>
+<switch bindchange='switch1Change'></switch>
+<switch checked></switch>
+
+<view>多行文本框</view>
+<view>
+  <textarea bindblur="bindTextAreaBlur" auto-height></textarea>
+</view>
+<view>
+  <textarea auto-focus='true' style='height:3em'></textarea>
+</view>
+
+<button form-type='submit'>Submit</button>
+<button form-type='reset'>Reset</button>
+</form>

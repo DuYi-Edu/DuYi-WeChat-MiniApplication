@@ -1,0 +1,22 @@
+page{
+  background-color: #f8f8f8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.page-body{
+  padding:20rpx 0;
+}
+
+.page-section{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.btn-area{
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+}
