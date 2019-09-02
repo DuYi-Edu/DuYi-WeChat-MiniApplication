@@ -1,0 +1,11 @@
+新闻浏览器
+<view>
+  <swiper style="height:200rpx" vertical current='1' bindchange='changeCurrent' autoplay interval='3000' duration='2000' indicator-dots>
+    <swiper-item>
+      <navigator url='/pages/about/about'><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562577290130&di=a556dbe73b0ef1ddebd27d61b47b6a52&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201111%2F27%2F20111127174801_TaG2r.jpg'></image></navigator>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562577318862&di=5cc78db3d19d4a887cf74056b22b39e7&imgtype=0&src=http%3A%2F%2Fimg.juimg.com%2Ftuku%2Fyulantu%2F140901%2F330756-140Z11IZ240.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>

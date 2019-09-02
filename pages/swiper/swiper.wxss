@@ -1,0 +1,5 @@
+/* pages/swiper/swiper.wxss */
+
+swiper-item image{
+  width: 100%;
+}
