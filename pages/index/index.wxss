@@ -1,0 +1,17 @@
+/* pages/index/index.wxss */
+.page-section{
+  margin: 10rpx 0;
+  background: white;
+  width: 90%;
+  padding: 20rpx;
+  text-align: center;
+}
+
+.page-section button{
+  margin: 10rpx auto;
+  width: 80%;
+}
+
+.page-title{
+  font-weight: bold;
+}
