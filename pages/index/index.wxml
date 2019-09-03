@@ -1,0 +1,26 @@
+<view class='container'>
+<view class='page-body' hidden='{{!showHidden}}'>
+  <view class='page-section'>
+    <view>动态设置导航条</view>
+    <input bindinput='showNavigator' placeholder='请输入'></input>
+    <button bindtap='setNavigationBarTite'>设置导航条</button>
+    {{contentShow}}
+  </view>
+  <view class='page-section'>
+    <view>用户交互操作</view>
+    <button bindtap='showToastEvent'>showToast(消息提示框)</button>
+    <button bindtap='showModelEvent'>showModel(模态对话框)</button>
+  </view>
+  <view class='page-section'>
+    <view>loading提示框</view>
+    <button bindtap='showLoading'>loading提示框</button>
+  </view>
+  <view class='page-section'>
+    <view>操作菜单显示</view>
+    <button bindtap='showActionSheet'>弹出菜单</button>
+  </view>
+</view>
+<view class='page-user' hidden='{{showHidden}}'>
+  <text>hello</text>
+</view>
+</view>
