@@ -1,0 +1,28 @@
+<view class='container'>
+  <view class='page-area area-bg'>
+    <view class='row'>
+      <picker mode='selector' bindchange="bindPickerChange" value='{{index}}' range='{{kuaidiList}}'>
+      <view class='kuaidiCompany'>
+        快递当前选择：{{kuaidiList[index]}}
+      </view>
+      </picker>
+    </view>
+    <view class='row'>
+      <text>快递单号</text>
+      <input placeholder='快递单号' bindinput='getOrderCode'></input>
+    </view>
+    <button bindtap='searchKuaidi'>查询</button>
+  </view>
+  <view class='current-area'>
+    <view>
+    当前状态:{{current.context}}
+    </view>
+    <view>
+    时间：{{current.time}}
+    </view> 
+  </view>
+  <view wx:for='{{orderCodeList}}'>
+    <view>状态：{{item.context}}</view>
+    <view>状态：{{item.time}}</view>
+  </view>
+</view>
