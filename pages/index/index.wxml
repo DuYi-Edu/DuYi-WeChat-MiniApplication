@@ -1,0 +1,74 @@
+<view class='container'>
+  <view class='page-body'>
+    <view class='page-section'>
+      <view class='page-section-title'>数据录入操作</view>
+      <view class='page-section-content'>
+          <button type='primary' bindtap='dbAdd'>数据库录入</button>
+      </view>
+    </view>
+
+    <view class='page-section'>
+      <view class='page-section-title'>数据查询操作</view>
+      <view class='page-section-content'>
+          <button type='primary' bindtap='dbSelectOne'>单数据查询</button>
+      </view>
+    </view>
+
+     <view class='page-section'>
+      <view class='page-section-title'>数据查询操作</view>
+      <view class='page-section-content'>
+          <button type='primary' bindtap='dbSelectMulti'>多数据查询</button>
+      </view>
+    </view>
+
+    <view class='page-section'>
+        <view class='page-section-title'>数据查询操作</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='dbSelectWhereObj'>单数据查询条件为对象</button>
+        </view>
+    </view>
+    <view class='page-section'>
+        <view class='page-section-title'>云函数的简单调用</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='cloudFun'>获取云函数的A和B之和</button>
+        </view>
+    </view>
+
+    <view class='page-section'>
+        <view class='page-section-title'>云函数指令操作</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='cloudFunlt19'>获取大于等于19岁的学生信息</button>
+        </view>
+    </view>
+
+     <view class='page-section'>
+        <view class='page-section-title'>云函数更新(单条记录)</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='updateScore'>对于分数增加10分</button>
+        </view>
+    </view>
+
+       <view class='page-section'>
+        <view class='page-section-title'>云函数更新(单条记录)</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='updatePartyMember'>更新党员字段</button>
+        </view>
+    </view>
+
+
+    <view class='page-section'>
+        <view class='page-section-title'>云数据删除(单条记录)</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='deleteOne'>删除单条记录</button>
+        </view>
+    </view>
+
+    <view class='page-section'>
+        <view class='page-section-title'>修改数组记录(单条记录)</view>
+        <view class='page-section-content'>
+            <button type='primary' bindtap='updateOneArray'>修改单条记录数组记录</button>
+        </view>
+    </view>
+
+    </view>
+</view>
