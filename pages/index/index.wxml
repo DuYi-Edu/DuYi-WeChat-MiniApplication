@@ -1,0 +1,27 @@
+<view class='panel_root'>
+  <view class='view_top' animation="{{animation1}}">
+    <image class='img_top'  src='{{img_url}}'></image>
+  </view>
+
+  <view class='view_bottom' animation="{{animation2}}">
+ 
+  <image class='img_bottom' src='{{img_url}}'></image>
+
+
+  <view class='panel_bottom'>
+    <view class='panel_loading' style="display:{{hasResutl==0?'block':'none'}}">
+      <image class='img_loading' src='{{loading}}'></image><text class='text_lable'>正在搜索同意时刻摇晃手机的人</text>
+    </view>
+
+
+    <view class='panel_result'  style="display:{{hasResutl==1?'block':'none'}}">
+    哈哈
+    </view>
+
+  </view>
+  
+  </view>
+ 
+  <button class='btn_test' bindtap='startAnimation' >测试</button>
+ 
+</view>
