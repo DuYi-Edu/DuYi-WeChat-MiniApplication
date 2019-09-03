@@ -1,0 +1,10 @@
+<view class='container'>
+  <button bindtap='getLocation'>获取当前位置</button>
+  <view>当前所在位置：{{locationPath}}</view>
+  <button bindtap='getInvoiceTitle'>获取发票抬头信息</button>
+  <view>
+    <view>开具发票</view>
+    <view>信息：{{companyAddress}}</view>
+  </view>
+  <button bindtap='chooseInvoice'>获取已经开具的发票</button>
+</view>
