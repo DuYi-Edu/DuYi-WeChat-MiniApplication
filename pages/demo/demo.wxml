@@ -1,0 +1,9 @@
+<view class='container'>
+<view class='btn-area'>
+  <navigator url='/pages/index/index'>跳转到新的页面</navigator>
+  <view class='section'>
+    <input placeholder='输入信息' bindblur='getInput'></input>
+    <button bindtap='navi'>存储</button>
+  </view>
+</view>
+</view>

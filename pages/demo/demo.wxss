@@ -1,0 +1,15 @@
+/* pages/demo/demo.wxss */
+.container{
+  background: gray;
+  
+}
+
+.btn-area{
+  width: 80%;
+  background: white;
+}
+
+.section{
+  width: 100%;
+  background: white;
+}

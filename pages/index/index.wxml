@@ -1,0 +1,4 @@
+<button bindtap='setStorage'>设置缓存</button>
+<button bindtap='removeStorage'>移除缓存</button>
+<button bindtap='getStorageInfo'>获取当前缓存里的数据信息</button>
+<button bindtap='clearStorage'>清除缓存</button>
