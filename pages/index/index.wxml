@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='text'>一键连接WIFI</view>
+  <form bindsubmit='connectWifi'>
+    <view class='form'>
+      <view class='section'>
+        <text>wifi账户</text>
+        <input placeholder='请输入wifi账户' name='wifiname'></input>
+      </view>
+      <view class='section'>
+        <text>wifi密码</text>
+        <input placeholder='请输入wifi密码' name='wifipwd' password></input>
+      </view>
+      <button form-type='submit' type='primary'>连接WIFI</button>
+      <button bindtap='startSearch'>搜索附件wfii</button>
+  </view>
+  <view>
+    <block wx:for='{{wifiList}}' wx:key='{{index}}'>
+      <view>
+        <text>{{item.SSID}}</text>
+      </view>
+    </block>
+  </view>
+  </form>
+</view>
