@@ -1,0 +1,18 @@
+<view class='container'>
+  <view class='row'>
+    <button bindtap='uploadImg' type='primary'>上传图片至云存储</button>
+  </view>
+<view class='row'>
+    <form bindsubmit='formSubmit'>
+    <input placeholder='云存储ID' name='cloudID'></input>
+    <button form-type='submit' type='primary'>下载显示云存储</button>
+    <image class='cloudPicture' src='{{downloadImage}}'></image>
+    </form>
+  </view>
+  <view class='row'>
+      <button bindtap='deleteCloudImg' type='primary'>删除云存储图片</button>
+  </view>
+  <view class='row'>
+      <button bindtap='getTmpFilePath' type='primary'>转换临时文件路径</button>
+  </view>
+</view>
