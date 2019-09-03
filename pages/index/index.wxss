@@ -1,0 +1,29 @@
+.page-section{
+  width: 90%;
+  border-radius: 10rpx;
+  background: white;
+}
+
+.page-section input{
+  width: 90%;
+  border: 2rpx solid gray;
+  height: 60rpx;
+  margin: 10rpx auto;
+}
+
+.form{
+  width: 90%;
+  padding: 20rpx;
+}
+
+.button-list{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.button-list button{
+  width: 100rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}

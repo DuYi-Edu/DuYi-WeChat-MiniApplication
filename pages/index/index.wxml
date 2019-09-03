@@ -1,0 +1,15 @@
+<view class="container">
+<form bindsubmit="calNum" class="form">
+  <view class="page-section">
+    <input name="num1" placeholder="输入数字1"></input>
+    <input name="num2" placeholder="输入数字2"></input>
+    <view class="button-list">
+      <button type="primary" form-type="submit" data-opt="+">+</button>
+      <button type="primary" form-type="submit" data-opt="-">-</button>
+      <button type="primary" form-type="submit" data-opt="*">*</button>
+      <button type="primary" form-type="submit" data-opt="/">/</button>
+    </view>
+    <input value="{{result}}"></input>
+  </view>
+  </form>
+</view>
