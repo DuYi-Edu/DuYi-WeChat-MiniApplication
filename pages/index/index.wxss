@@ -1,0 +1,16 @@
+/* pages/index/index.wxss */
+.container{
+  background-color: #ccc;
+}
+
+.page-section{
+  background: #fff;
+  width: 90%;
+  padding: 10rpx 0;
+  margin: 20rpx auto;
+  text-align: center;
+}
+
+.page-section-title{
+  font-weight: bold;
+}

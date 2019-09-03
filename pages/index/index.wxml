@@ -1,0 +1,19 @@
+<view class='container'>
+  <view class='page-section'>
+    <view class='page-section-title'>电量监控</view>
+    <view class='page-section-area'>
+      <view>当前电量值：{{level}}</view>
+      <view>是否在充电：{{isCharging}}</view>
+      <progress percent='{{level}}' show-info active></progress>
+    </view>
+  </view>
+  <view class='page-section'>
+    <view class='page-section-title'>系统电话</view>
+    <view class='page-section-area'>
+    <form bindsubmit='formCallPhone'>
+      <input placeholder='电话号码' name='phoneNumber'></input>
+      <button bindtap='callPhone' form-type='submit'>拨打电话</button>
+    </form>
+    </view>
+  </view>
+</view>
