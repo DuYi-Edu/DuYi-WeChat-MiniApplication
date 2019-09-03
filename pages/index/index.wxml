@@ -1,0 +1,6 @@
+<view class='container'>
+  <button bindtap='setItem'>动态改变tarbar-item项</button>
+  <button bindtap='showRedDot'>显示红色角标</button>
+  <button bindtap='showBadge'>添加数字角标</button>
+  <button bindtap='setRedDot'>闪动角标</button>
+</view>
