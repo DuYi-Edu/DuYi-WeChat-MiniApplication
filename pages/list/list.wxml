@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="page-section">
+    <view class="title">记录列表</view>
+
+    <view class="page-row" wx:for="{{listData}}">
+      <text class="newsTitle">{{item.newsTitle}}</text>
+      <text class="newsAuthor">{{item.newsAuthor}}</text>
+      <view class="newsDescription">{{item.newsDescription}}</view>
+      <button bindtap="delNews" data-id="{{item._id}}">删除</button>
+    </view>
+
+  </view>
+</view>
