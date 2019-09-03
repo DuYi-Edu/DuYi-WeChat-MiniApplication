@@ -1,0 +1,4 @@
+<button type='primary' bindtap='playManager'>播放</button>
+<button type='primary' bindtap='pauseManager'>暂停</button>
+<button type='primary' bindtap='stopManager'>停止</button>
+<button type='primary' bindtap='seekManager'>跳转(指定播放)</button>

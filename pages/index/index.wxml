@@ -1,0 +1,8 @@
+<view class='section'>
+    <image src='http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000'></image>
+</view>
+
+<button type='primary' bindtap='play'>播放</button>
+<button type='primary' bindtap='pause'>暂停</button>
+<button type='primary' bindtap='stop'>停止</button>
+<button type='primary' bindtap='seek'>跳转(指定播放)</button>
