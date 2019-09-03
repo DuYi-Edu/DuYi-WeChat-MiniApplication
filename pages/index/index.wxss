@@ -1,0 +1,4 @@
+.img{
+  width: 20vw;
+  height: 15vh;
+}

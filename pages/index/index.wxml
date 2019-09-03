@@ -1,0 +1,6 @@
+<button bindtap='chooseImage'>获取图片</button>
+<button bindtap='getImageInfo'>获取图片信息</button>
+<button bindtap='previewImage'>预览图片</button>
+<view>
+<image class='img' src='{{updateImage}}' bindtap='previewImage'></image>
+</view>
