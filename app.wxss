@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+  width: 100%;
+} 
+
+.section{
+  background: #fff;
+  border-bottom: 1rpx solid #dedede;
+  margin-bottom: 15rpx;
+  padding: 20rpx;
+}
+
+page{
+  width: 100%;
+  height: 100%;
+  background: #efefef;
+}
+
+button.yellow{
+  color:#fff;
+  background: #feb70f;
+}
+
+.ellipsis{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

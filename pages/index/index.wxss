@@ -1,0 +1,162 @@
+/* pages/index/index.wxss */
+.container{
+  background: #efefef
+}
+
+.header{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  display: flex;
+  padding: 20rpx;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: background 0.5s ease-in-out;
+}
+
+.header .icon{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: top;
+}
+
+.header .location{
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  background: rgba(0,0,0,0.3);
+  border-radius:30rpx;
+  padding: 10rpx 20rpx 10rpx 10rpx;
+  vertical-align: middle;
+}
+
+.header .search{
+  flex: 1;
+  background: white;
+  border-radius: 30rpx;
+  color: #888;
+  font-size:30rpx;
+  line-height: 40rpx;
+  padding: 10rpx;
+}
+
+.scrolled{
+  background: #feb70f;
+}
+
+.page-section{
+  display: flex;
+  flex-direction: row;
+}
+
+
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper image{
+  width: 100%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column
+}
+
+.menu image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.menu-swiper{
+  background-color: white;
+}
+
+.swiper-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.section{
+  margin: 20rpx 0 5rpx 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section image{
+  width:95%;
+}
+
+.section-title{
+  font-size:32rpx;
+  font-weight: bold;
+  text-align: center;
+  margin: 20rpx 0;
+  line-height: 70rpx;
+  color: black;
+}
+
+.section-title:before{
+  content:"";
+  position: absolute;
+  left:50%;
+  margin-top: 37rpx;
+  margin-left: -180rpx;
+  width: 100rpx;
+  height: 1px;
+  background: #000;
+}
+
+.section-title:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-top: 37rpx;
+  margin-left: 80rpx;
+  width: 100rpx;
+  height: 1rpx;
+  background: #000;
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.filter{
+  flex:1;
+  text-align: center;
+  border-top: 1rpx solid #ddd;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding-top: 10rpx;
+  color:#696969;
+  font-size:30rpx;
+}
+
+.v{
+  display: none;
+}
+
+.active,.active .v{
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+}
+
+.img-shops{
+  width: 100%;
+  height: 400rpx;
+}
+
+.fujin-list{
+  display: flex;
+  flex-direction: column;
+}
