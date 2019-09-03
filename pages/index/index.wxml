@@ -1,0 +1,10 @@
+<view class='container'>
+<form bindsubmit='touch'>
+  <view>this is worker demo</view>
+  <input name='num1' placeholder='num1'></input>
+  <input name='num2' placeholder='num2'></input>
+  <button form-type='submit' type='primary'>触发主线程
+  </button>
+</form>
+<input placeholder='result' value='{{result}}'></input>
+</view>
