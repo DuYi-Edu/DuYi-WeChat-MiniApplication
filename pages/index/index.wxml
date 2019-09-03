@@ -1,0 +1,7 @@
+<button bindtap='navigatorToMiniProgram'>跳转其他小程序</button>
+<view>数据上报
+<button bindtap='reportMonitor'>数据上报</button>
+</view>
+<view>数据分析
+<button bindtap='reportAnalytics'>数据分析</button>
+</view>
