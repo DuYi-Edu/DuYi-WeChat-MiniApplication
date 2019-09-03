@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class='page-area'>
+    <image src='/images/airport.jpg' class='logoImg'></image>
+    <view class='page-section'>
+      <text class='username'>{{showName}}</text>
+      <text>欢迎来到个人中心</text>
+    </view>
+  </view>
+</view>

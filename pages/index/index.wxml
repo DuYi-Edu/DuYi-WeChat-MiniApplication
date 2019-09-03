@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='page-area'>
+    <input placeholder='输入手机号' bindinput='getphone'></input>
+    <input placeholder='输入密码' bindinput='getpsw' password></input>
+    <view wx:if='{{isZhuce}}'>
+      <input placeholder='请输入名字' bindinput='getname'></input>
+      <button type="primary" bindtap='reg'>用户注册</button>
+      <view bindtap='showZhuce' class='nav'>直接登录</view>
+    </view>
+    <view wx:if='{{!isZhuce}}'>
+      <button type="primary" bindtap='login'>用户登录</button>
+      <view bindtap='showDenglu' class='nav'>直接注册</view>
+    </view>
+  </view>
+</view>
