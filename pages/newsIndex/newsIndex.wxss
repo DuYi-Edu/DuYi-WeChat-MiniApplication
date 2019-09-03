@@ -1,0 +1,53 @@
+.page-section{
+  width: 90%;
+  background: white;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin: 10rpx 0;
+}
+
+.page-section .title{
+  text-align: center;
+  font-size: 5vw;
+}
+
+.page-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  line-height: 100rpx;
+  margin: 10rpx 0;
+}
+
+.page-row text{
+  font-size: 4vw;
+  padding: 0 10rpx;
+}
+
+.page-row input{
+  background:rgba(202, 195, 182, 0.329);
+  height: 60rpx;
+  width: 80%;
+  border-radius: 6rpx;
+}
+
+.newsContent{
+  width: 100%;
+}
+
+.newsContent text{
+  font-size: 4vw;
+  padding: 0 10rpx;
+}
+
+.newsContent textarea{
+  background-color:rgba(202, 195, 182, 0.329);
+  margin: 10rpx auto;
+  width: 100%;
+}
+
+button{
+  margin: 10rpx 0;
+}

@@ -1,0 +1,37 @@
+.page-section{
+  width: 90%;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin: 10rpx 0;
+}
+
+.page-section .title{
+  background: white;
+  text-align: center;
+  font-size: 5vw;
+  border-radius: 10rpx;
+}
+
+.page-row{
+  background: white;
+  margin: 20rpx 0;
+  border-radius: 10rpx;
+}
+
+.newsTitle{
+  font-size: 6vw;
+  font-weight: bold;
+  margin: 0 10rpx;
+}
+
+.newsAuthor{
+  font-size: 4vw;
+  color: gray;
+  margin: 0 30rpx;
+}
+
+.newsDescription{
+  width: 95%;
+  line-height: 60rpx;
+  margin: 0 auto;
+}
