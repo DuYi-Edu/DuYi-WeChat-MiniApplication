@@ -1,0 +1,25 @@
+<view class='container'>
+    <view class='row'>
+      <input placeholder='请输入姓名' bindinput='bindNameInput'></input>
+    </view>
+    <view class='row'>
+      <input placeholder='请输入手机号' bindinput='bindPhoneInput'></input>
+    </view>
+    <view class='row'>
+      <input placeholder='请输验证码' bindinput='bindCodeInput' style='width:70%;'/>
+     <button class='codeBtn' bindtap='getCode' hidden='{{hidden}}' disabled='{{btnDisabled}}'>{{btnValue}}</button>
+    </view>
+    <view>
+      <button class='subBtn' bindtap='save'>注册</button>
+    </view>
+<!-- 打电话 -->
+  <view class='row'>
+      <input placeholder='输入拨打的电话' bindinput='callPhone'></input>
+  </view>
+   <button class='subBtn' bindtap='mackcallphone'>拨打电话</button>
+
+<view class='area'>
+  <textarea bindinput='smsContent'></textarea>
+  <button class='subBtn' bindtap='sendSms'>发送短信</button>
+</view>
+</view>
