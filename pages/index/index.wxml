@@ -1,0 +1,23 @@
+<view class='container'>
+  <view class='page-section'>
+    <view class='control-title'>保存文件</view>
+    <button bindtap='saveFile'>保存文件</button>
+  </view>
+  <view class='page-section'>
+    <view class='control-title'>获取本地的缓存临时文件    </view>
+    <button bindtap='getFileInfo'>获取本地的缓存临时文件</button>
+  </view>
+   <view class='page-section'>
+    <view class='control-title'>获取以存储的文件列表</view>
+    <button bindtap='getSavedFiledList'>获取以存储的文件列表</button>
+  </view>
+   <view class='page-section'>
+    <view class='control-title'>清楚本地缓存文件</view>
+    <button bindtap='removeSavedFile'>清楚本地缓存文件</button>
+  </view>
+
+   <view class='page-section'>
+    <view class='control-title'>打开文档</view>
+    <button bindtap='openDocument'>文档打开</button>
+  </view>
+</view>
