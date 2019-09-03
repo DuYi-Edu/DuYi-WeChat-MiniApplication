@@ -1,0 +1,2 @@
+<button bindtap='btnClick1'>获取菜单按钮（右上角胶囊按）位置信息</button>
+<input placeholder='inputHeight'></input>
