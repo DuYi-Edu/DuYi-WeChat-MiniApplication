@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="page-section">
+    <button bindtap='upload' type="primary">上传图片</button>
+    <image hidden="{{showImg}}" src="{{imgUrl}}"></image>
+  </view>
+</view>

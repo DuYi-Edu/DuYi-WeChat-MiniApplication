@@ -1,0 +1,17 @@
+/* pages/index/index.wxss */
+.page-section{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin: 4%;
+}
+.page-section button{
+  width: 90%;
+}
+
+.page-section image{
+  width: 100%;
+}
