@@ -1,0 +1,17 @@
+<template name='music-play-list'>
+  <view class='music-play-list'>
+    <view class='music-play-list-item'>
+      <image class='music-play-list-image' src='http://y.gtimg.cn/music/photo_new/T002R90x90M000003y8dsH2wBHlo.jpg'></image>
+      <view class='music-play-list-text'>
+        <text>最近播放</text>
+      </view>
+    </view>
+
+    <view class='music-play-list-item'>
+      <image class='music-play-list-image' src='http://y.gtimg.cn/music/photo_new/T002R90x90M000003y8dsH2wBHlo.jpg'></image>
+      <view class='music-play-list-text'>
+        <text>最近播放</text>
+      </view>
+    </view>
+  </view>
+</template>
