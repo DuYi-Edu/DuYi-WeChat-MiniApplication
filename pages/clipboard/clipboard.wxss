@@ -1,0 +1,7 @@
+/* pages/clipboard/clipboard.wxss */
+.container button{
+  width:100%;
+}
+.container text{
+  font-size: 5vh;
+}
