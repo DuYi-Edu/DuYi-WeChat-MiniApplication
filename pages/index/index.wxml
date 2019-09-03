@@ -1,0 +1,114 @@
+<view class="container">
+<!-- 搜索 -->
+<view class="header {{scrollDown?'scrolled':''}}">
+  <view class="location">
+    <image class="icon" src='/imgs/index/icon_location.png'></image>定位中
+  </view>
+  <view class="search" bindtap='tapSearch'>
+    <image class="icon" src='/imgs/index/icon_search.png'></image>
+    <i class='fa-home'></i>
+    烤鸭
+  </view>
+</view>
+
+<!-- 滚动条 -->
+    <swiper class="swiper" autoplay>
+    <block wx:for="{{banners}}">
+        <swiper-item>
+          <image src="{{item.img}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+
+  <!-- 菜单 -->
+    <swiper indicator-dots class="menu-swiper">
+      <swiper-item>
+      <view class="swiper-item">
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+        </view>
+        <view class="swiper-item">
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+
+          <view class="menu">
+            <image src="/imgs/index/icon_1.jpg"></image>
+            <text>新商家</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+
+<!-- 优惠专区(模板设置) -->
+    <view class="section">
+      <view class="section-title">优惠专区</view>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523954724534&di=aaf2b0f756ba5d2fd3dea7842b76faa2&imgtype=0&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fnuomi%2Fwh%253D470%252C285%2Fsign%3Deec0f8b05043fbf2c579ae27874ee6b2%2F2f738bd4b31c870189176f5e247f9e2f0608ffe1.jpg"></image>
+    </view>
+
+<!-- 为你优选(模板设置) -->
+<view class="section">
+      <view class="section-title">为你优选</view>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564995637313&di=adafe7dc46091cd6b005394f545226ae&imgtype=0&src=http%3A%2F%2Fhomesitetask.zbjimg.com%2Fhomesite%2Ftask%2F1.png%2Forigine%2F5aa73d4c-9a6b-45e3-90d6-09592643cac6"></image>
+    </view>
+
+<!-- 特色频道 -->
+<view class="section">
+      <view class="section-title">特色频道</view>
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565023994105&di=c11728628e74dabec4c90f1ecd8e4e26&imgtype=0&src=http%3A%2F%2Fwww.k18.com%2Fnews%2Fupload%2F20151104%2F1446616914233202.png"></image>
+    </view>
+
+<!-- 附近商家 -->
+<view class="section">
+  <view class="section-title">附近商家</view>
+  <view class="filters">
+    <view bindtap='tapFilter' data-id='1' class="filter {{filterID==1?'active':''}}">综合排序<text class="v">↓</text></view>
+    <view bindtap='tapFilter' data-id='2' class="filter {{filterID==2?'active':''}}">销量最高<text class="v">↓</text></view>
+    <view bindtap='tapFilter' data-id='3' class="filter {{filterID==3?'active':''}}">距离最近<text class="v">↓</text></view>
+  </view>
+</view>
+
+  <!-- 一组数据 -->
+  <view class="fujin-list">
+    <navigator url="/pages/shop/shop?id=1">
+    <image class="img-shops" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565026298888&di=b8aaecd8b0d52d62c6be3b37039ba27b&imgtype=0&src=http%3A%2F%2Fimgs.bzw315.com%2FUploadFiles%2Fimage%2F2017%2F7%2F26%2F201707261610514979.jpg"></image>
+    </navigator>
+
+    <navigator url="/pages/shop/shop?id=1">
+    <image class="img-shops" src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1565016702&di=737e0a5ffabde1d5ca2caf947a5451d0&src=http://img.zcool.cn/community/01e9e958b4d4eaa801219c77c112a5.jpg@1280w_1l_2o_100sh.png"></image>
+    </navigator>
+
+    <navigator url="/pages/shop/shop?id=1">
+    <image class="img-shops" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3241767465,1021631222&fm=27&gp=0.jpg"></image>
+    </navigator>
+  </view>
+
+</view>
