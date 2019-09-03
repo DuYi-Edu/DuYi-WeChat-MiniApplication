@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class='link-list'>
+    <navigator url='/pages/list/list?index=0'>休闲食品</navigator>
+    <navigator url='/pages/list/list?index=1'>生活百家</navigator>
+    <navigator url='/pages/list/list?index=2'>饮料食品</navigator>
+    <navigator url='/pages/list/list?index=3'>生鲜配送</navigator>
+  </view>
+  <button bindtap='setTopBarText'>置顶帖文本设定</button>
+</view>
