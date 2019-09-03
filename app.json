@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/publish/publish",
+    "pages/me/me",
+    "pages/collect/collect",
+    "pages/homeDetail/homeDetail",
+    "pages/history/history",
+    "pages/replay/replay",
+    "pages/advance/advance"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小朋友圈",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "廣場",
+        "iconPath": "/images/tab/home_unselect.png",
+        "selectedIconPath": "/images/tab/home_select.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "發佈",
+        "iconPath": "/images/tab/publish_unselect.png",
+        "selectedIconPath": "/images/tab/publish_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/tab/me_unselect.png",
+        "selectedIconPath": "/images/tab/me_select.png"
+      }
+    ]
+  }
+}

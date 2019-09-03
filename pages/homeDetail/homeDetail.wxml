@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="container-content">
+    <view class="user-info">
+      <image class="user-head" src='{{topic.user.avatarUrl}}'></image>
+      <view class="user-name-time">
+        <view class="user-name">{{topic.user.nickName}}</view>
+        <view class="user-publish-time">{{topic.date}}</view>
+      </view>
+    </view>
+    <!-- 显示内容+图片 -->
+    <view class="content">
+      <block wx:if="{{item.content != ''}}  && {{item.images.length >0}}">
+        <text class="content-text">{{topic.content}}</text>
+        <scroll-view class="content-scroll" scroll-x>
+          <block wx:for="{{topic.images}}" wx:for-index="idx">
+            <image class="content-img" src='{{item}}' bindtap="previewImg" data-index="{{idx}}"></image>
+          </block>
+        </scroll-view>
+      </block>
+
+      <!-- 只发单图片 -->
+      <block wx:elif="{{topic.images.length > 0}}">
+        <scroll-view class="content-scroll" scroll-x>
+          <block wx:for="{{topic.images}}" wx:for-index="idx">
+            <image class="content-img" src='{{item}}' bindtap="previewImg" data-index="{{idx}}"></image>
+          </block>
+        </scroll-view>
+      </block>
+
+      <!-- 只发单文字 -->
+      <block wx:else>
+        <text class="content-text">{{topic.content}}</text>
+      </block>
+    </view>
+  </view>
+
+<!-- 回复列表 -->
+  <view class="replay_content" wx:if="{{replays.length>0}}">
+    <text class="tip-text">--------以下是回复内容---------</text>
+    <block wx:for="{{replays}}" wx:for-index="idx">
+      <text>{{idx}}:{{item.content}}</text>
+    </block>
+  </view>
+
+  <!-- 是否喜欢(收藏) -->
+  <view class="like-container" wx:if="{{isLike}}" bindtap='onLikeClick'>
+    <!-- 已喜欢（已收藏） -->
+    <image class="like-icon" src='../../images/topic-detail/like.png'></image>
+    <text class="like-text">已喜欢</text>
+  </view>
+  <view  class="like-container" wx:else  bindtap='onLikeClick'>
+    <!-- 还未喜欢 -->
+    <image class="like-icon" src='../../images/topic-detail/unlike.png'></image>
+    <text class="like-text">喜欢</text>
+  </view>
+
+
+
+  <view class="replay-container" bindtap="onReplayClick">
+    <button>回复</button>
+  </view>
+
+</view>

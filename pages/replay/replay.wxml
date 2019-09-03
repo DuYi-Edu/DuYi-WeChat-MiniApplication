@@ -1,0 +1,13 @@
+<view class="content">
+  <view class="text-content">
+    <view class="input-conent">
+      <input bindinput="bindKeyInput" placeholder="开始你的表演"></input>
+    </view>
+  </view>
+
+<view class="btn-func">
+  <button class="btn" bindtap="saveReplay">发布神评</button>
+</view>
+
+</view>
+

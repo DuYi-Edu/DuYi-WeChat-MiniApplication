@@ -1,0 +1,38 @@
+<block wx:for="{{topics}}" wx:for-index="idx">
+<view class="container" bindtap="onItemClick" data-topicid="{{item._id}}" data-openid='{{item._openid}}'>
+  <view class="container-content">
+    <view class="user-info">
+      <image class="user-head" src='{{item.user.avatarUrl}}'></image>
+        <view class="user-name-time">
+          <view class="user-name">{{item.user.nickName}}</view>
+          <view class="user-publish-time">{{item.date}}</view>
+        </view>
+    </view>
+    <!-- 显示内容+图片 -->
+    <view class="content">
+    <block wx:if="{{item.content != ''}}  && {{item.images.length >0}}">
+      <text class="content-text">{{item.content}}</text>
+      <scroll-view class="content-scroll" scroll-x>
+      <block wx:for="{{item.images}}">
+        <image class="content-img" src='{{item}}'></image>
+      </block>
+      </scroll-view>
+    </block>
+
+    <!-- 只发单图片 -->
+    <block wx:elif="{{item.images.length > 0}}">
+      <scroll-view  class="content-scroll" scroll-x>
+      <block wx:for="{{item.images}}">
+        <image class="content-img" src='{{item}}'></image>
+      </block>
+      </scroll-view>
+    </block>
+
+    <!-- 只发单文字 -->
+      <block wx:else>
+          <text class="content-text">{{item.content}}</text>
+      </block>
+    </view>
+  </view>
+</view>
+</block>

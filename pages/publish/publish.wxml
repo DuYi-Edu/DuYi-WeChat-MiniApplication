@@ -1,0 +1,25 @@
+<view class='content'>
+  <form bindsubmit='formsubmit'>
+    <view class="text-content">
+    <!-- 用户发表言论区 -->
+      <view class="text-area">
+        <textarea nmae="input-content" placeholder="说点什么吧。。。"  placeholder-class="holder" value="" bindblur="getTextAreaContent"></textarea>
+      </view>
+    </view>
+  <!-- 图片的预览区域 -->
+    <scroll-view class="image-group" scroll-x>
+      <view wx:for="{{images}}" wx:for-index="idx">
+      <!-- mode图片缩放模式：aspectFill保持图片的横纵比 -->
+        <image src='{{images[idx]}}' bindtap="previewImg" data-index="{{idx}}" mode="aspectFill"></image>
+        <icon type="clear" bindtap="removeImg" data-index="{{idx}}"></icon>
+      </view>
+    </scroll-view>
+  <!-- 按钮区 -->
+    <view class="btn-func">
+      <button class="btn-img" bindtap='chooseImage'>选择图片</button>
+      <button class="btn" form-type="submit" open-type="getUserInfo">发布社交圈</button>
+    </view>
+
+  </form>
+
+</view>

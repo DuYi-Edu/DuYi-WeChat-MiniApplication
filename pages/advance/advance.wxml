@@ -1,0 +1,17 @@
+<view class="content">
+  <form bindsubmit='formSubmit'>
+    <view class="text-conent">
+      <view class="input-conent">
+        <input name='title' placeholder="写个标题~"></input>
+      </view>
+      <view class="text-area">
+        <textarea name="input-content" placeholder="输入详细描述~" value="" bindblur="getTextAreaContext"></textarea>
+      </view>
+    </view>
+
+    <view class="btn-func">
+      <button class="btn" form-type="submit" open-type="getUserInfo">提交意见</button>
+    </view>
+
+  </form>
+</view>

@@ -1,0 +1,68 @@
+<view class="amountBg">
+  <!-- 个人区域 -->
+  <view class="img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="account">
+    <view class="nick-name">
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+    <view class="address">
+      <open-data type="userCountry"></open-data> ·
+      <open-data type="userProvince"></open-data> ·
+      <open-data type="userCity"></open-data>
+    </view>
+  </view>
+</view>
+
+<!-- 菜单列表 -->
+<view class="content">
+  <!-- 收藏列表 -->
+  <view class="line"></view>
+  <view class="item" bindtap="onCollectClick">
+    <view class="icon">
+      <image src="../../images/me/collect.png" style="width:44rpx;height:42rpx;"></image>
+    </view>
+    <view class="itemName">
+      <view>收藏列表</view>
+    </view>
+    <view class="right">></view>
+  </view>
+
+  <!-- 發佈歷史 -->
+  <view class="hr"></view>
+  <view class="item" bindtap="onHistoryClick">
+    <view class="icon">
+      <image src="../../images/me/history.png" style="width:44rpx;height:42rpx;"></image>
+    </view>
+    <view class="itemName">
+      <view>發佈歷史</view>
+    </view>
+    <view class="right">></view>
+  </view>
+
+  <!-- 邀請好友 -->
+  <view class="line"></view>
+  <view class="item">
+    <view class="icon">
+      <image src="../../images/me/invitation.png" style="width:44rpx;height:42rpx;"></image>
+    </view>
+    <view class="itemName">
+      <view>邀請好友</view>
+    </view>
+    <view class="right" bindtap='clickInvitivation'><text class="opr">一起來玩</text></view>
+  </view>
+
+<!-- 產品意見 -->
+  <view class="hr"></view>
+  <view class="item" bindtap="onAdvanceClick">
+    <view class="icon">
+      <image src="../../images/me/advice.png" style="width:44rpx;height:42rpx;"></image>
+    </view>
+    <view class="itemName">
+      <view>產品意見</view>
+    </view>
+    <view class="right">></view>
+  </view>
+<view class="hr"></view>
+</view>
