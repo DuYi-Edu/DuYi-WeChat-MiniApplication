@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/newsIndex/newsIndex",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "云函数的异步返回",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/newsIndex/newsIndex",
+        "text": "记录",
+        "iconPath": "/images/tab1n.png",
+        "selectedIconPath": "/images/tab1y.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "/images/tab2n.png",
+        "selectedIconPath": "/images/tab2y.png"
+      }
+    ]
+  }
+}
