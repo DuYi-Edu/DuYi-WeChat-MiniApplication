@@ -1,0 +1,12 @@
+<view class='container'>
+  <view class='title'>电视台列表</view>
+  <view class='page-section'>
+    <block wx:for="{{channelLists}}" wx:key='index'>
+      <view class='row' bindtap='gotoTVChannel' data-id='{{item._id}}' data-channelName='{{item.channelName}}'>
+        <image src='/images/{{item.channelImg}}'></image>
+        <text>{{item.channelName}}</text>
+        <text class='sign'>></text>
+      </view>
+    </block>
+  </view>
+</view>

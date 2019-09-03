@@ -1,0 +1,20 @@
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+}
+
+.time-info{
+  font-size: 30rpx;
+  color: gray;
+  margin: 20rpx 0;
+}
+
+.description{
+  font-size: 40rpx;
+}
+
+button{
+  width:90%;
+  margin: 40rpx 0;
+}

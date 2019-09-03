@@ -1,0 +1,8 @@
+<view class='container'>
+  <view class='title'>{{programData.programName}}</view>
+  <view class='time-info'>{{programData.commonPlayTime}}</view>
+  <view class='description'>
+    {{programData.programDescription}}
+  </view>
+  <button bindtap='returnTVlist'>返回电视列表</button>
+</view>

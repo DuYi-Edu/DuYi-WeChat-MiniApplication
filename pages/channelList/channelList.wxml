@@ -1,0 +1,29 @@
+<view class='container'>
+  <view class='page-section'>
+    <view class='row'>
+      <image src='/images/anhui.png'></image>
+      <text class='title'>安徽卫视</text>
+    </view>
+    <swiper autoplay>
+    <block wx:for='{{channelAdArr}}'>
+      <swiper-item>
+      <navigator url='/pages/{{item.imgUrl}}/{{item.imgUrl}}'>
+        <image src='{{item.imgPath}}'></image>
+      </navigator>
+      </swiper-item>
+    </block>
+    </swiper>
+
+    <view class='list'>
+      <view class='row listRow' wx:for='{{programList}}'>
+        <view class='area'>
+          <text>{{item.programName}}</text>
+          <text>{{item.playTime}}</text>
+        </view>
+        <button bindtap='programInfo' data-id='{{index}}'>介绍</button>
+      </view>
+
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<view class='container'>
+  <view class='page-section'>
+    <view class='search'>
+      <input placeholder='节目名称' bindinput='searchProgramName'></input>
+      <button bindtap='searchProgram'>搜索</button>
+    </view>
+  </view>
+
+  <view class='page-section key'>
+    <text>搜索关键字：{{key}}</text>
+  </view>
+
+  <view class='search-list'>
+    <view class='search-list-row' wx:for='{{searchInfo}}'>
+      <text>{{item.playTime}}</text>
+      <text>{{item.channel}}</text>
+    </view>
+
+  </view>
+</view>

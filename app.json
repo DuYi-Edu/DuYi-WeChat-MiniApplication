@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/channelList/channelList",
+    "pages/programInfo/programInfo",
+    "pages/search/search",
+    "pages/activity/activity"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "电视节目预告",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "看电视",
+        "iconPath": "/images/tv.png",
+        "selectedIconPath": "/images/tv.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜节目",
+        "iconPath": "/images/search.png",
+        "selectedIconPath": "/images/search.png"
+      }
+    ]
+  }
+}

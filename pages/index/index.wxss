@@ -1,0 +1,31 @@
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.page-section{
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 4rpx solid rgb(223, 211, 211);
+  height: 100rpx;
+  position: relative;
+}
+
+.row image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 10rpx;
+}
+
+.sign{
+  position: absolute;
+  right: 15rpx;
+  color: gray;
+}
