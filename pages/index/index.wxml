@@ -1,0 +1,17 @@
+<view class='container'>
+  <view class='page-section'>
+    <view class='bold'>loading组件</view>
+    <loading hidden='{{loadingHidden}}'>
+      加载中....
+    </loading>
+  </view>
+  <view  class='page-section'>
+    <view class='bold'>动态loading...(showToast)</view>
+    <button bindtap='showToast'>开启showToast</button>
+  </view>
+
+  <view  class='page-section'>
+    <view class='bold'>动态loading...(showLoading)</view>
+      <button bindtap='showLoading'>开启showToast</button>
+   </view>
+</view>

@@ -1,0 +1,18 @@
+/* pages/index/index.wxss */
+.container{
+  background: gray;
+  width: 100%;
+  justify-content: flex-start
+}
+
+.page-section{
+  width: 90%;
+  padding: 10rpx;
+  background: white;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
+}
+
+.page-section button{
+  margin: 20rpx 0;
+}
