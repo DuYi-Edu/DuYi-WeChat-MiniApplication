@@ -1,0 +1,7 @@
+<view class='page'>
+<text>top</text>
+</view>
+
+<view class='gotop' hidden='{{!cangotop}}'>
+  <view catchtap='goTop'>回到顶部</view>
+</view>
