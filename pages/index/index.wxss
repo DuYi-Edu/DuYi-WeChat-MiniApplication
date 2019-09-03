@@ -1,0 +1,13 @@
+/* pages/index/index.wxss */
+.container{
+  background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564376020&di=2033f56d5543f050f4bfb283babac8e1&imgtype=jpg&er=1&src=http%3A%2F%2Fp1.ssl.qhmsg.com%2Ft01c069f6595d83ecf0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(15rpx);
+}
+image{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx auto;
+  
+}
