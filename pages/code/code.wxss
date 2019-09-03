@@ -1,0 +1,7 @@
+.page__db_spacing{
+  margin-top:50rpx; 
+}
+
+.weui-form-preview__value_in-bd{
+  color: #000;
+}

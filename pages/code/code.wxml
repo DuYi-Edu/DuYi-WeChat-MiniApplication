@@ -1,0 +1,16 @@
+<view class='page'>
+  <view class='page_db'>
+    <view class='weui-cells__title'>二维码</view>
+      <view class='weui-cells weui-cells_after-title'>
+        <view class='weui-cell'>
+          <view class='weui-cell_bd'>
+            <textarea class='Weui-textarea' placeholder='请输入二维码文本' style='height:5em' value='{{codeText}}' bindinput='bindInput'></textarea>
+          </view>
+        </view>
+      </view>
+      <image src='{{imgTempFilePath}}' style='display:block;width:300rpx;height:300rpx'></image>
+      <view class='page__db_spaceing'>
+        <button class='weui-btn' bindtap='onGenerate' type='primary'>生成</button>
+      </view>
+  </view>
+</view>

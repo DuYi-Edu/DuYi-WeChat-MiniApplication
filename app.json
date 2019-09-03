@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/code/code",
+    "pages/logs/logs",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "识别二维码条形码",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f8f8"
+  },
+  "debug":true,
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "扫码",
+        "iconPath": "/images/scan.png",
+        "selectedIconPath": "/images/scan_selected.png"
+      },
+      {
+        "pagePath": "pages/code/code",
+        "text": "生成",
+        "iconPath": "/images/code.png",
+        "selectedIconPath": "/images/code_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "历史",
+        "iconPath": "/images/history.png",
+        "selectedIconPath": "/images/history_selected.png"
+      }
+    ]
+  }
+ 
+}

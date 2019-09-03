@@ -1,0 +1,12 @@
+/* pages/logs/logs.wxss */
+.weui-cell_bd{
+  overflow: hidden;
+  padding-right: 20rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+
+.weui-loadmore__tips_in-line{
+  background-color: #F8F8F8;
+  color: #999
+}
