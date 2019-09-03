@@ -1,0 +1,1 @@
+<button bindtap='getUserOpenId'>获取用户openid</button>
