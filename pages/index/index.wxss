@@ -1,0 +1,13 @@
+.messageView{
+  width: 100%;
+  text-align: center;
+}
+
+button{
+  margin: 50rpx 50rpx 0 50rpx;
+}
+
+.text{
+  color: red;
+  font-size: 50rpx;
+}
