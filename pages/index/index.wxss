@@ -1,0 +1,4 @@
+/* pages/index/index.wxss */
+.section button{
+  margin: 10rpx;
+}
