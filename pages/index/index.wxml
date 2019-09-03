@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='page-section' hidden='{{isShow}}'>
+    <text class='page-section-title'>在线客服-提交工单</text>
+    <text>在线客服人工服务时间为9:00-18:00，现在您有问题可以有如下反馈渠道</text>
+    <button type='primary' bindtap='userOpt'>用户操作</button>
+  </view>
+
+  <view class='page-section' hidden='{{!isShow}}'>
+    <view class='page-section-title'>{{workOrderTitle}}</view>
+    <text>{{workOrderContent}}</text>
+    <button type='primary' bindtap='accelerateProgress'>催办进度</button>
+    <button type='warn' bindtap='clearWordOrder'>撤销工单</button>
+  </view>
+
+</view>

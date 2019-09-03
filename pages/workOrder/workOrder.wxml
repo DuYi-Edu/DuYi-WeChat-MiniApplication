@@ -1,0 +1,18 @@
+<view class='container'>
+  <view class='page-section'>
+    <form bindsubmit='formSubmit' bindreset='formReset'>
+      <text class='page-section-title'>填写提交工单</text>
+      <view class='page-line'>
+        <text>提交标题</text>
+        <input placeholder='工单标题' name='workOrderTitle' bindinput='inputNavBarTip' bindblur='hideNavBarTip'></input>
+      </view>
+      <view class='page-line'>
+        <text>提交内容</text>
+        <textarea placeholder='工单内容' name='workOrderContent' bindinput='inputNavBarTip' bindblur='hideNavBarTip'></textarea>
+      </view>
+      <button type='primary' form-type='submit' >提交工单</button>
+      <button form-type='reset'>重置工单</button>
+    </form>
+  </view>
+
+</view>

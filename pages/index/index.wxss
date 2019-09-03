@@ -1,0 +1,30 @@
+/* pages/index/index.wxss */
+.container{
+  background: #ccc;
+  width: 100%;
+  font-size: 5vw;
+}
+
+.page-section{
+  background: white;
+  width: 90%;
+  margin: 10rpx auto;
+  padding: 10rpx;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-section-title{
+  margin-bottom: 80rpx;
+}
+
+.page-section text{
+  line-height: 5vh;
+}
+
+.page-section button{
+  width: 100%;
+  margin-top: 10rpx;
+}
