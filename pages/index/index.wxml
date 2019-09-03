@@ -1,0 +1,4 @@
+<button bindtap='wxlogin'>小程序登录</button>
+<button bindtap='getCompInfo'>获取公司信息</button>
+<button bindtap='getAppid'>获取当前账户信息</button>
+<button bindtap='getUserInfo'>获取用户信息</button>
