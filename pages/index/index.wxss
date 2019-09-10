@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'iconfont'; 
+  src: 
+  url('//at.alicdn.com/t/font_703892_u8zob8nchpf.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_703892_u8zob8nchpf.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family: 'iconfont' !important;
+  font-size: 28rpx;
+  font-style: normal;
+
+}
+
+.animation{
+  margin-top: 20rpx;
+  padding: 10rpx 30rpx;
+}
+
+.dis-flex{
+  display: flex
+}
+
+.flex1{
+  flex: 1;
+  text-align: center;
+}
+
+.flex3{
+  flex: 3;
+  text-align: center;
+}
+
+.switch-icon:before{
+  content: '\e8c8'
+}
