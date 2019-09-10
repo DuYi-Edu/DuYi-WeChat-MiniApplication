@@ -1,0 +1,6 @@
+/* pages/index/index.wxss */
+view{
+  width: 240rpx;
+  height: 240rpx;
+  border: 4rpx solid red;
+}

@@ -1,0 +1,5 @@
+<view animation='{{viewAnimate}}'>
+
+</view>
+
+<button bindtap='startMove'>开始动画</button>
