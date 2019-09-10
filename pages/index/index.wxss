@@ -1,0 +1,53 @@
+.container{
+  padding: 0;
+}
+
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius:50%;
+}
+
+.userInfo-nickname{
+  color: #aaa;
+}
+
+.usermotto{
+  margin-top: 400rpx;
+}
+
+scroll-view{
+  widows: 100%;
+}
+
+.item{
+  width: 90%;
+  height: 300rpx;
+  margin: 20rpx auto;
+  background: brown;
+  overflow: hidden;
+}
+
+.item .img{
+  width: 380rpx;
+  margin-right: 20rpx;
+  float:left
+}
+
+.title{
+  font-size:30rpx;
+  display: block;
+  margin: 20rpx auto;
+}
+
+.description{
+  font-size: 36rpx;
+  line-height: 15rpx;
+}
