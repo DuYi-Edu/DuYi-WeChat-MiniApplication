@@ -1,0 +1,10 @@
+<view class='container'>
+  <view class='page-section'>
+    <block wx:for='{{newsList}}' wx:key='index'>
+      <view class='news-list-item'>
+        <text class='news-list-item-title'>{{item}}</text>
+        <text class='flag'>></text>
+      </view>
+    </block>
+  </view>
+</view>

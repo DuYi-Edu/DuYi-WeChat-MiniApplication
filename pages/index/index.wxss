@@ -1,0 +1,8 @@
+/* pages/index/index.wxss */
+.page-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1600rpx;
+}
