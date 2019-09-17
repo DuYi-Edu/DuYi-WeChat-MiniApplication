@@ -1,0 +1,11 @@
+<dialog id="dialog"
+  title="我是标题"
+  content="恭喜，学会了小程序的组件应用"
+  cancelText="知道了"
+  confirmText="谢谢你"
+  bind:cancelEvent="_cancelEvent"
+  bind:confirmEvent="_confirmEvent"
+>
+</dialog>
+<!-- page按钮 -->
+<button type="primary" bindtap="showDialog">Click Me</button>
