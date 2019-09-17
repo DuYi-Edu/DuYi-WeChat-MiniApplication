@@ -1,0 +1,5 @@
+<custom-components>
+</custom-components>
+<navigator open-type="redirect" url="/pages/about/about">go</navigator>
+<custom-components>
+</custom-components>
