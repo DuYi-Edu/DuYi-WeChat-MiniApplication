@@ -1,0 +1,4 @@
+<view class="font-green">
+  Welcome to the mini-program!!!
+  <login-form></login-form>
+</view>

@@ -1,0 +1,6 @@
+<view>
+登录账户：
+</view>
+<view>
+<input type="text" placeholder="请输入"></input>
+</view>
