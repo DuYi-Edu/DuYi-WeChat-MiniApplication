@@ -1,0 +1,6 @@
+<view>
+  <custom-ul>
+    <custom-li lival="liVal-1"></custom-li>
+    <custom-li lival="lival-2"></custom-li>
+  </custom-ul>
+</view>

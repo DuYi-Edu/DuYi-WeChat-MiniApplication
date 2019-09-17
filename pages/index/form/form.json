@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "custom-input":"/components/form-component/custom-input",
+    "custom-submit":"/components/form-component/custom-submit",
+    "custom-form":"/components/form-component/custom-form"
+  }
+}
