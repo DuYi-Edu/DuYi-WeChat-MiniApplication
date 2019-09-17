@@ -1,0 +1,12 @@
+<view>
+ <view class="breadNav">
+  <view class='my-class'>首页</view>
+  <view>></view>
+  <slot name="pageTitle"></slot>
+ </view>
+ <view class="page-Description">
+  <slot name="pageDescription"></slot>
+ </view>
+
+</view>
+

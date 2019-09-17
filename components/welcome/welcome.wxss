@@ -1,0 +1,21 @@
+.breadNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  background: #ccc;
+  font-size: 50rpx;
+  color: gray;
+}
+
+.page-Description{
+  margin: 10rpx;
+  border-bottom: 1px solid red;
+  padding-bottom: 16rpx;
+}
+
+:host{
+  font-size: 30rpx;
+  color: blue;
+}

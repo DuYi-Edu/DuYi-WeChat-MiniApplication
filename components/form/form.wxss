@@ -1,0 +1,5 @@
+/* components/form/form.wxss */
+:host{
+  font-size: 20rpx;
+  color:green;
+}
