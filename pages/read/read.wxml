@@ -1,0 +1,8 @@
+<view>
+
+<myWelcome>
+<view slot="pageTitle">阅读</view>
+<view slot="pageDescription">阅读人士的天堂</view>
+</myWelcome>
+
+</view>

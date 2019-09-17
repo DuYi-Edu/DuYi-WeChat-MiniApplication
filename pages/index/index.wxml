@@ -1,0 +1,9 @@
+<myWelcome my-class="txt-yellow">
+<view slot="pageTitle">购物</view>
+<view slot="pageDescription">狂欢购物人士的天堂</view>
+</myWelcome>
+
+<navigator url="/pages/read/read">阅读</navigator>
+
+<myForm>
+</myForm>

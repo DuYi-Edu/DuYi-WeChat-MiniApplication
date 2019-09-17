@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "myWelcome":"/components/welcome/welcome",
+    "myForm":"/components/form/form"
+  }
+}
