@@ -1,0 +1,22 @@
+//创建Behavior构造器
+module.exports = Behavior({
+  //behaviors
+  behaviors:[],
+  //属性
+  properties:{
+    myBehaviorProperty:{
+      type:String
+    }
+  },
+  //数据
+  data:{
+    myBehaviorData:{}
+  },
+  //生命周期
+  //方法
+  methods:{
+    myBehaviorMethod:function(){
+      console.log("my-behavior.js")
+    }
+  }
+})

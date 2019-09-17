@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-component":"/components/component-tag-name" ,
+    "custom-form-field":"/components/fom/custom-form-field"
+  }
+}

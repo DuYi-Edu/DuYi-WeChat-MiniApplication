@@ -1,0 +1,9 @@
+<my-component my-behavior-property="behavior-property" my-property="my-property">
+
+</my-component>
+
+
+<form bindsubmit="formSubmit">
+  <custom-form-field name="custom-name"></custom-form-field>
+  <button form-type="submit">提交</button>
+</form>
