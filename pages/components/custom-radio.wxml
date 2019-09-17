@@ -1,0 +1,1 @@
+<radio disabled="{{disabled}}" checked="{{selected}}"></radio>

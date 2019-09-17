@@ -1,0 +1,4 @@
+<view>radio</view>
+<selectable-group generic:selectable="custom-radio1"></selectable-group>
+<view>checkbox</view>
+<selectable-group generic:selectable="custom-checkbox"></selectable-group>

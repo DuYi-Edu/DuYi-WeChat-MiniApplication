@@ -1,0 +1,8 @@
+<!-- 抽象节点 -->
+<view wx:for="{{labels}}" wx:key="this">
+<label bindtap="itemTap" data-index="{{index}}">
+  <!-- 写抽象节点 -->
+  <selectable disabled="{{false}}" selected="{{selected[index]}}"></selectable>
+  {{item}}
+</label>
+</view>
