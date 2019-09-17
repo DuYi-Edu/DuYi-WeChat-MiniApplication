@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "custom-component":"/components/custom-component"
+  }
+}
