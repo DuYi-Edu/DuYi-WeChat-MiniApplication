@@ -1,0 +1,5 @@
+<view>
+<another-component bindcustomevent="pageEventListener1">
+ <my-component bindcustomevent="pageEventListener2"></my-component>
+</another-component>
+</view>

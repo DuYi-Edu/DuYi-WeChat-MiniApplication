@@ -1,0 +1,3 @@
+<view>
+  <button bindtap="onTap">点击这个按钮将触发一系列事件</button>
+</view>

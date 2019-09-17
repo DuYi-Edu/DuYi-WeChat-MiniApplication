@@ -1,0 +1,3 @@
+<view bindcustomevent="antherEventListener">
+  <slot/>
+</view>
