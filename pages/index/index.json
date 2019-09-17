@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "modal-success":"../../components/successModal/successModal"
+  }
+}

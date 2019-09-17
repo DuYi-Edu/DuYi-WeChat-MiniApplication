@@ -1,0 +1,7 @@
+/* pages/index/index.wxss */
+.demoBtn{
+  padding: 10rpx 30rpx;
+  border-radius: 10rpx;
+  background: #00868b;
+  color: #fff;
+}

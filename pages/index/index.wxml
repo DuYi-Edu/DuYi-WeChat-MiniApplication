@@ -1,0 +1,14 @@
+<view class="container">
+<view class="demoBtn" bindtap="bindViewTap">
+  <text>点击</text>
+</view>
+
+<view class="demoBtn" bindtap="bindViewTap2">
+  <text>改变点击</text>
+</view>
+
+
+<modal-success modal-hidden="{{is_modal_Hidden}}" modal-icon="{{is_modal_icon}}" modal-title="{{is_modal_title}}" modal-desc="{{is_modal_desc}}">
+</modal-success>
+
+</view>
