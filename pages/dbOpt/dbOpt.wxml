@@ -1,0 +1,68 @@
+<view class='container'>
+  <view class='page-body'>
+    <view class='page-section'>
+      <view class='page-section-title'>数据录入操作</view>
+      <view class='page-section-content'>
+      <form bindsubmit='formSubmit'>
+          <view class='section-row'>
+            <text>姓名：</text>
+            <input name='username' class='input-style'></input>
+          </view>
+          <view class='section-row'>
+            <text>年龄：</text>
+            <input name='userage' class='input-style'></input>
+          </view>
+          <button type='primary' form-type='submit'>数据库录入</button>
+        </form>
+      </view>
+    </view>
+
+    <view class='page-section'>
+      <view class='page-section-title'>数据库获取数据</view>
+      <view class='page-section-content'>
+        <view class='section-row' wx:for='{{userList}}'>
+          <view>用户姓名：{{item.name}} </view>
+          <view> 用户年龄：{{item.age}}</view>
+        </view>
+        <button type='primary' bindtap='getUserRecord'>数据库读取记录</button>
+      </view>
+    </view>
+
+    <view class='page-section'>
+      <view class='page-section-title'>更新单条数据操作</view>
+      <view class='page-section-content'>
+          <view class='section-row'>
+            <text>需要更新字段：</text>
+            <input name='newFieldVal' bindinput='getNewsFieldVal' class='input-style'></input>
+          </view>
+          <view class='section-row'>
+            <text>数据库字段：</text>
+            <input name='dbFileldVal' value='{{dbFieldVal}}' class='input-style'></input>
+          </view>
+          <button type='primary' bindtap='updateData'>数据更新</button>
+      </view>
+    </view>
+     <view class='page-section'>
+      <view class='page-section-title'>更新多条数据操作</view>
+      <view class='page-section-content'>
+          <view class='section-row'>
+            <text>需要更新值：</text>
+            <input name='newFieldVal' bindinput='getNewsFieldVal' class='input-style'></input>
+          </view>
+          <button type='primary' bindtap='updateAllData'>数据全部更新</button>
+      </view>
+    </view>
+
+
+    <view class='page-section'>
+      <view class='page-section-title'>删除数据记录</view>
+      <view class='page-section-content'>
+          <view class='section-row'>
+            <text>需要删除的ID：</text>
+            <input name='newFieldVal' bindinput='getNewsFieldVal' class='input-style'></input>
+          </view>
+          <button type='primary' bindtap='deleteData'>删除数据</button>
+      </view>
+    </view>
+  </view>
+</view>
