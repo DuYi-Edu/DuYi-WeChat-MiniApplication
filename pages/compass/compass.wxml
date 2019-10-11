@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="text">
+    <!-- 方向 -->
+    <text>{{direction}}</text>
+    <!-- 角度 -->
+    <text>{{angle}}°</text>
+  </view>
+  <view class="pic">
+    <image src='../../images/compass.png' style="transform:rotate({{rotate}}deg)"></image>
+  </view>
+</view>
