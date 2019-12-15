@@ -1,8 +1,0 @@
-<view class="modal-section" wx:if="{{modalHidden}}">
-  <view class="modal-opaci"  bindtap="modal_click_Hidden"></view>
-  <view class="modal-cont">
-    <icon type="{{modalIcon}}" size='70'></icon>
-    <text class="modal-titleTxt {{modalIcon}}">{{modalTitle}}</text>
-    <text class="success-msg">{{modalDesc}}</text>
-  </view>
-</view>

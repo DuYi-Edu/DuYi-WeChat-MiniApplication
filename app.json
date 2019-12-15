@@ -1,12 +1,15 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/share/share"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "葫芦热点",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "RGBA(22, 15, 46, 1)"
   },
   "sitemapLocation": "sitemap.json"
 }

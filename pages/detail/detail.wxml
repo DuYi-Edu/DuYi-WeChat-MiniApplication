@@ -1,0 +1,30 @@
+<!-- 广告位 -->
+<view class="mywrap">
+
+</view>
+<view wx:if="{{mask}}">
+  <view class="headTop">
+    <view class="ph">{{num}}</view>
+    <view class="headTopMain">#{{name}}#</view>
+    <view class="headBottom">
+      共位您找到{{allnum}}个视频
+    </view>
+  </view>
+  
+  <view class="pageScroll" style="width:100%">
+    <view class="videoArr">
+      <videoGroup id="videoGroup" page="{{page}}" playIndex="{{playIndex}}" videoList="{{videoList}}" aps="{{aps}}" bind:videoPlay="myvideoPlay" showother="{{showother}}"></videoGroup>
+    </view>
+    <view class="nodata" wx:if="{{nodata}}">我是有底线的</view>
+    <view class="nodata" wx:if="{{!nodata}}">{{moretype}}
+      <image wx:if="{{moreType=='正在加载中'}}" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568699355736&di=907dd9ad8b1d2723ff7bf850cf5f92d2&imgtype=0&src=http%3A%2F%2Fimg4q.duitang.com%2Fuploads%2Fitem%2F201505%2F23%2F20150523090235_fJUxr.gif"></image>
+    </view>
+    <view class="bottomGroup">
+      <view class="bGitem" bindtap="toIndex">更多视频</view>
+      <button class="bGitem" open-type="share" data-id="分享好友">
+        分享给好友
+      </button>
+    </view>
+  </view>
+</view>
+

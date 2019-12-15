@@ -4,18 +4,26 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.2",
-	"appid": "wx5124ce252314ca4e",
-	"projectname": "100-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BB%84%E4%BB%B6%E6%A1%88%E4%BE%8B",
+	"appid": "wxc232625ccf1d871c",
+	"projectname": "mp_%E8%91%AB%E8%8A%A6%E7%83%AD%E7%82%B9",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

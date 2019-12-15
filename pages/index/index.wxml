@@ -1,14 +1,44 @@
-<view class="container">
-<view class="demoBtn" bindtap="bindViewTap">
-  <text>点击</text>
+<!-- 广告位 -->
+<view class="mywrap">
+
 </view>
 
-<view class="demoBtn" bindtap="bindViewTap2">
-  <text>改变点击</text>
-</view>
+<view wx:if="{{mask}}">
+  <!-- 是否订阅 -->
+  <view class="aps" wx:if="{{!isSubscibe}}">
+    <view class="aspTitle">
+      为你追踪每周热点视频
+    </view>
+    <!-- 订阅按钮 -->
+    <form bindsubmit="submittwo" report-submit="true">
+      <button class="apsSure" hover-class="none" form-type="submit">点击订阅</button>
+    </form>
+  </view>
 
-
-<modal-success modal-hidden="{{is_modal_Hidden}}" modal-icon="{{is_modal_icon}}" modal-title="{{is_modal_title}}" modal-desc="{{is_modal_desc}}">
-</modal-success>
-
+  <view class="pageScroll" style="width:100%;{{isSubscibe?'padding-top:100rpx':''}}">
+  <view class="hotType">
+    <view class="hotTitle">每日热搜</view>
+    <view class="hotScroll">
+      <!-- Scroll-view -->
+      <scroll-view scroll-x style="width:100%" scroll-with-animation>
+         <view class='hotItem' wx:for="{{hotWord}}" style="background-image: url('{{item.bgsrc}}')" bindtap='tolist' data-id='{{item.id}}' data-name='{{item.name}}' data-bg='{{item.Bgsrc}}' data-ph="{{item.ph}}" data-num='{{index+1}}'>
+          <view class="ph">{{index+1}}</view>
+          <view class="Item_main">#{{item.name}}</view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+<!-- 热点视频 -->
+  <view class="videoArr">
+    <view class="hotTitle">热点视频</view>
+  </view>
+  <!-- 自定义组件的使用 -->
+  <videoGroup id="videoGroup" page="{{page}}" playIndex="{{playIndex}}" videoList="{{videoList}}" aps="{{aps}}" bind:videoPlay="myvideoPlay"></videoGroup>
+  </view>
+  <!-- 底部显示 -->
+  <view class="nodata" wx:if="{{nodata}}">我是有底线的~</view>
+  <view class="nodata" wx:if="{{!nodata}}">
+  {{moreType}}
+  <image wx:if="{{moretype=='正在加载中'}}" src="http://img4q.duitang.com/uploads/item/201505/23/20150523090235_fJUxr.gif"></image>
+  </view>
 </view>

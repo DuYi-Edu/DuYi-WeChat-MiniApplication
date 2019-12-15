@@ -1,5 +1,7 @@
 {
+  "navigationBarTitleText":"热点首页",
   "usingComponents": {
-    "modal-success":"../../components/successModal/successModal"
-  }
+    "videoGroup":"/component/auglyVideo"
+  },
+  "enablePullDownRefresh":true
 }
